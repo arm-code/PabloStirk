@@ -7,7 +7,7 @@
     <title>Pablo Stirk</title>
   </head>
   <body>
-    <section>
+    <section class="navbar-container">
       <div class="name">
         <h1>P<small>ablo</small> S<small>tirk</small></h1>
         <p>Diseñador grafico</p>
@@ -15,26 +15,78 @@
 
       <div class="navbar">
         <ul>
-          <li>Contacto</li>
-          <li>Acerca de mi</li>
-          <li>Servicios</li>
-          <li>Tienda</li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#acerca-de">Acerca de mi</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#tienda">Tienda</a></li>
         </ul>
       </div>
     </section>
 
-    <section class="contacto">
-      <p>
+    <section class="contacto" id="contacto">
+      <p class="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem labore,
         excepturi omnis eius vel, ratione laborum quod soluta atque optio, ex
         aperiam veritatis ullam explicabo voluptates pariatur minima! Eaque,
         numquam?
       </p>
       <div class="imgs">
-        <img src="img/img9.jpg" alt="imagen 1" />
-        <img src="img/img6.jpg" alt="imagen 2" />
-        <img src="img/img8.jpg" alt="imagen 3" />
+        <div>
+          <img class="img1" src="img/img9.jpg" alt="imagen 1" />
+          <button>Ilustraciones</button>
+          <p>--------------------------></p>
+
+          <a href="#">Ver mas...</a>
+        </div>
+        <div class="med">
+          <img class="img2" src="img/img8.jpg" alt="imagen 3" />
+          <button>Creacion de personajes</button>
+          <p>--------------------------></p>
+          <a href="#">Ver mas...</a>
+        </div>
+        <div>
+          <img class="img3" src="img/img6.jpg" alt="imagen 2" />
+          <button>Logotipos</button>
+          <p>--------------------------></p>
+          <a href="#" class="ver-mas">Ver mas...</a>
+        </div>
       </div>
     </section>
+
+    <section class="acerca-de" id="acerca-de">
+      <img class="img-acerca" src="./img/img10.jpg" alt="" />
+      <p class="description-acerca">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+        ipsam sequi voluptatibus velit illo enim laborum voluptatum autem sunt
+        possimus omnis aspernatur. Architecto blanditiis similique omnis quasi
+        nam! Magnam, distinctio.
+      </p>
+    </section>
+
+    <section class="servicios" id="servicios">
+      <p class="btn-servicios">Servicios</p>
+      <div class="img-container">
+        <img class="img-servicios" src="./img/img7.jpg" alt="" />
+        <img class="img-servicios" src="./img/img0.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="tienda" id="tienda">
+      <p class="btn-servicios">Tienda</p>
+      <div class="img-container">
+        <img class="img-servicios" src="./img/img1.jpg" alt="" />
+        <img class="img-servicios" src="./img/img4.jpg" alt="" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Pablo.correo@gmail.com</p>
+      <div class="icons-container">
+        <img src="./icons/facebook.png" alt="">
+        <img src="./icons/yt.png" alt="" srcset="">
+
+      </div>
+
+    </footer>
   </body>
 </html>
